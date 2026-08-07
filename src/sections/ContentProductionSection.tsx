@@ -897,12 +897,15 @@ export function ContentProductionSection() {
             {/* video blocks */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
               {[
-                "GhKGV3uL7zI",
-                "Frc6R0AsnJ8",
+                "jIZzeoGshyo",
+                "Zx0KnfJ_Qcg",
                 "EKXqvlhc15g",
+                "1nfNuSbAeB0",
                 "U6DPulBqhpM",
                 "R6-nD6mQmz8",
-                "kDBICwiOmu0"
+                "kDBICwiOmu0",
+                "GhKGV3uL7zI",
+                "Frc6R0AsnJ8"
               ].map((id, i) => <VideoBlock16x9 key={i} index={i} videoId={id} />)}
             </div>
           </div>
@@ -919,6 +922,17 @@ export function ContentProductionSection() {
 
       <HScrollCarousel>
         {[
+          "raM2CBBIb1U",
+          "6q2I-jCkeK0",
+          "1paTpxjepg8",
+          "BvJAeijODgQ",
+          "eiIAgxN9GSc",
+          "cnOOpuZXRb4",
+          "CHO3Okr1QN8",
+          "HLeB4KTpd54",
+          "duuKhhpyx-s",
+          "edcRenTlMUU",
+          "KRDCWH203bQ",
           "DMFj5Jqsk5A",
           "ouzaMC64xXE",
           "nnXTkPCJA48",
