@@ -733,8 +733,6 @@ export function ContentProductionSection() {
   const video169Tags = ["Cinematic Brand Films", "Office Walkthroughs", "TVCs / Digital Commercials", "Vision Films", "Launch Films"];
   const perfAdsSubTags = ["Meta", "Google", "YouTube"];
   const video916Tags = ["CGI", "Long Form", "Short Form", "3D Product Renders"];
-  const ugcTags = ["Testimonial Type", "POV Storytelling", "Product Demos / Reviews", "Explainer Videos"];
-  const storyTags = ["Narrative Led Videos"];
     const photoUrls = [
     "https://lh3.googleusercontent.com/d/1azwhfivMn9gawE12ATOFuq7kydzbRYrZ",
     "https://lh3.googleusercontent.com/d/1CxLwcV-x3ibCGh__N1K5juv8vEoeoE4D",
@@ -1023,58 +1021,8 @@ export function ContentProductionSection() {
             </div>
           </div>
         </div>
-
-        {/* ── UGC ── */}
-        <div className="mb-24 flex flex-col gap-10">
-          <SubSectionHeading text="UGC Style Videos" />
-          <div>
-            <SectionLabel label="Video" />
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
-              {ugcTags.map((t, i) => <TagCard key={i} label={t} />)}
-            </div>
-          </div>
-        </div>
       </div>
 
-      <HScrollCarousel>
-        {[
-          "f2T8MiqQFzg",
-          "170oO5IK2Fo",
-          "RNxMrdywx6k",
-          "AKU_f8uszOk",
-          "oThTuewpLQI",
-          "rP7GWpduOxo",
-          "hS2hecmM9hY",
-          "NUOmwKnHtxA",
-          "SnigkqTOfMo",
-          "-DavS3Ms2dw",
-          "-xGG2N7mAAY",
-          "VTAqbFHi2gY",
-          "kRLN9N1xb8k",
-          "bL9km87OIM4",
-          "Eroi_hhHCu0"
-        ].map((id, i) => <VideoBlock9x16 key={i} index={i} videoId={id} />)}
-      </HScrollCarousel>
-
-      <div className="max-w-[1300px] mx-auto px-6 md:px-12 lg:px-24">
-        {/* Story Telling */}
-        <div className="mt-20 mb-24">
-          <SubSectionHeading text="Story Telling" />
-          <SectionLabel label="Narrative" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {storyTags.map((t, i) => <TagCard key={i} label={t} />)}
-          </div>
-        </div>
-      </div>
-
-      <HScrollCarousel>
-        {[
-          "0Q9DC1EgbmY",
-          "S5PnHTGTwkI",
-          "v6NZuWlSHuc",
-          "3asRz4tH3Y8"
-        ].map((id, i) => <VideoBlock9x16 key={i} index={i} videoId={id} />)}
-      </HScrollCarousel>
 
       <div className="max-w-[1300px] mx-auto px-6 md:px-12 lg:px-24">
         <div className="mb-10 mt-10">
