@@ -27,27 +27,7 @@ const designSections = [
       "https://lh3.googleusercontent.com/d/1ZeTEmikxnlt_iyUeHQxV5JPKh-r8R6Of"
     ],
   },
-  {
-    tag: "Digital",
-    title: "Website & Digital Assets",
-    items: [
-      "Website Design (UI/UX)",
-      "Email Marketing Flows",
-      "High-Conversion Landing Pages",
-      "SEO Optimization",
-    ],
-    photoCount: 5,
-    images: [
-      "https://lh3.googleusercontent.com/d/1EdBX-iNkXMU0Qea9bDNoEw29hYgwtwKg",
-      "https://lh3.googleusercontent.com/d/1Yzm8bRXY-ag2oIqgzTofgf66ZLAhSAEj",
-      "https://lh3.googleusercontent.com/d/15v7neYO5cEGNFvOBsJix6cLZpahuNTIa",
-      "https://lh3.googleusercontent.com/d/1AY3JiEQh7akvlBzSdYHTZ2soPxpH_wz1",
-      "https://lh3.googleusercontent.com/d/1WRKoEy1vkmKsvClZb9jFOaXHZ2cm5a9s",
-      "https://lh3.googleusercontent.com/d/1KIkKtcne-w6ft06Y2P8wUUDVb3xBGdyl",
-      "https://lh3.googleusercontent.com/d/1xs1b_WQQugxDGUEqHnjWDtKePvydFfqN"
-    ],
-    displayMode: "grid" as "grid" | "carousel",
-  },
+
   {
     tag: "Experiential",
     title: "Offline & Experiential",
