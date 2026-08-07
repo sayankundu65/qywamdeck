@@ -926,6 +926,7 @@ export function ContentProductionSection() {
           "6q2I-jCkeK0",
           "1paTpxjepg8",
           "BvJAeijODgQ",
+          "z-qD099V5uk",
           "eiIAgxN9GSc",
           "cnOOpuZXRb4",
           "CHO3Okr1QN8",
@@ -981,11 +982,11 @@ export function ContentProductionSection() {
           <div>
             <SectionLabel label="AI Avatar Videos" />
             <div className="flex flex-col md:flex-row gap-5 mt-6">
-              <VideoBlock9x16 index={0} videoId="PTSZGUaQQG0" />
+              <VideoBlock9x16 index={0} videoId="z-qD099V5uk" />
               <div className="flex-1 min-w-0">
-                <VideoBlock16x9 index={1} videoId="tyncxsYGJQ0" />
+                <VideoBlock16x9 index={1} videoId="jIZzeoGshyo" />
               </div>
-              <VideoBlock9x16 index={2} videoId="E0ETpvuInmM" />
+              <VideoBlock9x16 index={2} videoId="eiIAgxN9GSc" />
             </div>
           </div>
         </div>
