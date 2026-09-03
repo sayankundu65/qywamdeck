@@ -897,10 +897,10 @@ export function ContentProductionSection() {
             {/* video blocks */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
               {[
-                "jIZzeoGshyo",
-                "Zx0KnfJ_Qcg",
+                "1nlFas7KoNU",
+                "CDJ0cgyLBBE",
                 "EKXqvlhc15g",
-                "1nfNuSbAeB0",
+                "zBsehMDlSHc",
                 "U6DPulBqhpM",
                 "R6-nD6mQmz8",
                 "kDBICwiOmu0",
