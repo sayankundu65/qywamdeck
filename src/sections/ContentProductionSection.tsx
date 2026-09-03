@@ -982,11 +982,11 @@ export function ContentProductionSection() {
           <div>
             <SectionLabel label="AI Avatar Videos" />
             <div className="flex flex-col md:flex-row gap-5 mt-6">
-              <VideoBlock9x16 index={0} videoId="z-qD099V5uk" />
+              <VideoBlock9x16 index={0} videoId="ZqHXCbRurD8" />
               <div className="flex-1 min-w-0">
-                <VideoBlock16x9 index={1} videoId="jIZzeoGshyo" />
+                <VideoBlock16x9 index={1} videoId="1nlFas7KoNU" />
               </div>
-              <VideoBlock9x16 index={2} videoId="eiIAgxN9GSc" />
+              <VideoBlock9x16 index={2} videoId="8LVCvK4GMUE" />
             </div>
           </div>
         </div>
