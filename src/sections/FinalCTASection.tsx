@@ -18,14 +18,17 @@ export function FinalCTASection() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           className="flex flex-col items-center gap-6"
         >
-          <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#c6ff2e]/60 border border-[#c6ff2e]/10 px-5 py-2 rounded-full">
-            NAWF
-          </span>
+          <div className="flex items-center gap-2.5 border border-[#c6ff2e]/20 bg-[#c6ff2e]/5 px-5 py-2 rounded-full">
+            <img src="/logo-mark-white.png" alt="QYWAM Logomark" className="h-4 w-auto object-contain" />
+            <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#c6ff2e]/90">
+              QYWAM
+            </span>
+          </div>
           <h2 className="font-heading text-[clamp(3rem,9vw,7rem)] font-black uppercase leading-none tracking-tighter text-[#f0f4f0]">
             Let Us Take You
           </h2>
           <h2 className="font-heading text-[clamp(3rem,9vw,7rem)] font-black uppercase leading-none tracking-tighter text-[#c6ff2e]" style={{ textShadow: "0 0 80px rgba(198,255,46,0.25)" }}>
-            #TowardsNawf
+            #TowardsQywam
           </h2>
         </motion.div>
 
@@ -46,15 +49,21 @@ export function FinalCTASection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.6 }}
-          className="flex items-center gap-8 mt-20 text-[#7a8c7f]/50 text-xs font-bold tracking-widest uppercase"
+          className="flex flex-col md:flex-row items-center justify-between w-full mt-24 pt-8 border-t border-white/5 text-[#7a8c7f]/50 text-xs font-bold tracking-widest uppercase gap-6"
         >
-          <span>Reality</span>
-          <div className="h-px w-10 bg-current" />
-          <span>The Overlap</span>
-          <div className="h-px w-10 bg-current" />
-          <span>Ai</span>
-          <div className="h-px w-10 bg-current hidden md:block" />
-          <span className="hidden md:block">2026</span>
+          <div className="flex items-center gap-3">
+            <img src="/logo-mark-white.png" alt="QYWAM Logomark" className="h-5 w-auto object-contain opacity-75" />
+            <img src="/wordmark-white.png" alt="QYWAM" className="h-3 w-auto object-contain opacity-75" />
+          </div>
+          <div className="flex items-center gap-8">
+            <span>Reality</span>
+            <div className="h-px w-10 bg-current" />
+            <span>The Overlap</span>
+            <div className="h-px w-10 bg-current" />
+            <span>Ai</span>
+            <div className="h-px w-10 bg-current hidden md:block" />
+            <span className="hidden md:block">2026</span>
+          </div>
         </motion.div>
 
       </div>

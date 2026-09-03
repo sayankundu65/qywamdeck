@@ -41,7 +41,7 @@ export function Section11FinalCTA() {
             <h2 className="font-heading text-6xl md:text-8xl lg:text-9xl font-black uppercase leading-none tracking-tighter">
               LET US <br/>
               TAKE YOU <br/>
-              <span className="text-accent italic selection:bg-foreground selection:text-background">#TowardsNawf</span>
+              <span className="text-accent italic selection:bg-foreground selection:text-background">#TowardsQywam</span>
             </h2>
             <div className="flex flex-col sm:flex-row gap-6 w-full lg:w-auto">
               <button className="px-8 py-5 md:px-12 md:py-6 bg-accent text-background font-heading font-black text-xl md:text-2xl uppercase tracking-widest rounded-full hover:scale-105 hover:shadow-[0_0_30px_rgba(198,255,46,0.4)] transition-all will-change-transform">
@@ -56,7 +56,7 @@ export function Section11FinalCTA() {
       </div>
       
       <div className="mt-auto border-t border-foreground/10 pt-12 flex flex-col md:flex-row justify-between items-center text-secondary font-body font-bold tracking-widest uppercase text-sm gap-4">
-        <span>© {new Date().getFullYear()} NAWF. ALL RIGHTS RESERVED.</span>
+        <span>© {new Date().getFullYear()} QYWAM. ALL RIGHTS RESERVED.</span>
         <span>Developer + Design Blueprint</span>
       </div>
     </SectionWrapper>

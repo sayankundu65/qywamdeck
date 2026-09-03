@@ -17,10 +17,11 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NAWF — AI 360° Content Arsenal | The Overlap",
-  description: "Where reality meets AI. NAWF delivers cinematic storytelling, AI influencers, and full-stack content production at scale.",
+  title: "QYWAM — AI 360° Content Arsenal | The Overlap",
+  description: "Where reality meets AI. QYWAM delivers cinematic storytelling, AI influencers, and full-stack content production at scale.",
   icons: {
-    icon: "https://lh3.googleusercontent.com/d/1ys3FkxheuiIqx9qHSaxy1cjnJ1Lw0K9_",
+    icon: "/logo-mark-white.png",
+    apple: "/logo-mark-white.png",
   },
 };
 

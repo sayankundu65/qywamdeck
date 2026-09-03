@@ -62,7 +62,7 @@ export function WhatYouGetSection() {
           <div>
             <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#c6ff2e] mb-4 block">What You Get</span>
             <h2 className="font-heading text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight text-[#f0f4f0] leading-none">
-              Associating<br />With <span className="text-[#c6ff2e]">NAWF</span>
+              Associating<br />With <span className="text-[#c6ff2e]">QYWAM</span>
             </h2>
           </div>
           <div className="max-w-sm">

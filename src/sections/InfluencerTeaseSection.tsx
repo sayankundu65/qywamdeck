@@ -339,7 +339,7 @@ export function InfluencerTeaseSection() {
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#c6ff2e] mb-4 block">AI Influencers</span>
           <h2 className="font-heading text-5xl md:text-7xl font-black uppercase tracking-tight text-[#f0f4f0] leading-none">
-            NAWF's<br /><span className="text-[#c6ff2e]">Influencer Tease</span>
+            QYWAM's<br /><span className="text-[#c6ff2e]">Influencer Tease</span>
           </h2>
         </motion.div>
 

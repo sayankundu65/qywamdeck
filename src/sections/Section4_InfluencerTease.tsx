@@ -9,7 +9,7 @@ export function Section4InfluencerTease() {
 
   return (
     <SectionWrapper>
-      <SectionHeader title="NAWF'S INFLUENCER TEASE" subtitle="Meme Marketing / Influencer Network" />
+      <SectionHeader title="QYWAM'S INFLUENCER TEASE" subtitle="Meme Marketing / Influencer Network" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {creators.map((c, i) => (
           <FadeIn key={i} delay={i * 0.2}>

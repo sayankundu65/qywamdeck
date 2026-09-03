@@ -13,7 +13,7 @@ export function Section2Dashboard() {
 
   return (
     <SectionWrapper>
-      <SectionHeader title="What will you get associating with NAWF?" />
+      <SectionHeader title="What will you get associating with QYWAM?" />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <FadeIn>
@@ -26,7 +26,7 @@ export function Section2Dashboard() {
               <ol className="space-y-3 text-lg text-secondary">
                 <li>1. ANSWER THE ONBOARDING QUESTIONS</li>
                 <li>2. TRACK EVERYTHING</li>
-                <li>3. LET US TAKE YOU <span className="text-foreground font-bold italic">#TowardsNawf</span></li>
+                <li>3. LET US TAKE YOU <span className="text-foreground font-bold italic">#TowardsQywam</span></li>
               </ol>
             </div>
           </div>

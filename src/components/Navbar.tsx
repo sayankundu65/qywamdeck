@@ -66,10 +66,10 @@ export function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           onClick={() => scrollTo("hero")}
-          className="flex items-center justify-center hover:opacity-70 transition-opacity"
+          className="flex items-center justify-center hover:opacity-75 transition-opacity"
           aria-label="Back to top"
         >
-          <img src="https://lh3.googleusercontent.com/d/1ys3FkxheuiIqx9qHSaxy1cjnJ1Lw0K9_" alt="NAWF" width={52} height={52} className="object-contain brightness-0 invert" />
+          <img src="/logo-mark-white.png" alt="QYWAM" width={46} height={46} className="object-contain" />
         </motion.button>
 
         {/* Dot navigation — centered vertically */}
@@ -140,10 +140,11 @@ export function Navbar() {
       >
         <button
           onClick={() => scrollTo("hero")}
-          className="flex items-center justify-center hover:opacity-70 transition-opacity"
+          className="flex items-center gap-3 hover:opacity-75 transition-opacity"
           aria-label="Back to top"
         >
-          <img src="https://lh3.googleusercontent.com/d/1ys3FkxheuiIqx9qHSaxy1cjnJ1Lw0K9_" alt="NAWF" width={56} height={56} className="object-contain brightness-0 invert" />
+          <img src="/logo-mark-white.png" alt="QYWAM Logomark" width={36} height={36} className="object-contain" />
+          <img src="/wordmark-white.png" alt="QYWAM" className="h-[18px] w-auto object-contain" />
         </button>
 
         {/* Hamburger */}
@@ -167,6 +168,10 @@ export function Navbar() {
             exit={{ opacity: 0, y: -16 }}
             className="md:hidden fixed top-16 left-0 right-0 z-40 bg-[#080f0c]/95 backdrop-blur-xl border-b border-white/5 flex flex-col px-8 py-8 gap-5"
           >
+            <div className="pb-4 mb-1 border-b border-white/10 flex items-center gap-3">
+              <img src="/logo-mark-white.png" alt="QYWAM Logomark" width={28} height={28} className="object-contain" />
+              <img src="/wordmark-white.png" alt="QYWAM" className="h-3.5 w-auto object-contain" />
+            </div>
             {sections.map(({ id, label }) => (
               <button
                 key={id}

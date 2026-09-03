@@ -26,8 +26,16 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-6 md:px-12 max-w-6xl mx-auto">
-        
-        
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="flex items-center gap-3 mb-8 px-4 py-2 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm shadow-[0_0_20px_rgba(198,255,46,0.05)]"
+        >
+          <img src="/logo-mark-white.png" alt="QYWAM Logomark" className="h-5 w-auto object-contain" />
+          <div className="h-3.5 w-px bg-white/20" />
+          <img src="/wordmark-white.png" alt="QYWAM" className="h-3 w-auto object-contain" />
+        </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
