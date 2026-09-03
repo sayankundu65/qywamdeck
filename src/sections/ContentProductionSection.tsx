@@ -922,12 +922,8 @@ export function ContentProductionSection() {
 
       <HScrollCarousel>
         {[
-          "raM2CBBIb1U",
-          "6q2I-jCkeK0",
-          "1paTpxjepg8",
-          "BvJAeijODgQ",
-          "z-qD099V5uk",
-          "eiIAgxN9GSc",
+          "YqUFX6yyqR4",
+          "Bjnx-msCki4",
           "cnOOpuZXRb4",
           "CHO3Okr1QN8",
           "HLeB4KTpd54",
